@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         glue = "com/cydeo/step_definitions",
         //in order to get the path of feature files
         dryRun = false,
-        tags = "",
+        tags = "@smoke",
         publish = false
 )
 public class CukesRunner {
