@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = "com/MyTests/step_definitions",
         dryRun = false,
         tags = "@smoke",
-        publish = false
+        publish = true
 
 )
 public class CukesRunner {
